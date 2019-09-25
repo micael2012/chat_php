@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/app.css">
+	<style>
+			
+	#sidebar-wrapper {
+	background-color: #e8c896;
+	color: white;
+	position: fixed;
+	height: 100%;
+	width: 17%;
+	z-index: 1;
+	}
+
+	.sidebar-nav {
+	position: fixed;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 17%;
+	}
+
+	.sidebar-nav li {
+	font-size: 20px;
+	text-indent: 55px;
+	line-height: 70px;
+	}
+
+	.sidebar-nav li a {
+	color: white;
+	display: block;
+	text-decoration: none;
+	}
+
+	.sidebar-nav li a:hover {
+	background: #448B93;
+	color: white;
+	text-decoration: none;
+	}
+
+	.sidebar-nav li a:active, .sidebar-nav li a:focus {
+	text-decoration: none;
+	}
+
+	#ufpb-logo{
+	margin-top: 40px;
+	margin-bottom: 50px;
+	padding-left: 60px;
+	}
+
+	#sidebar-wrapper.sidebar-toggle {
+	transition: all 0.3s ease-out;
+	}
+
+	#main{
+	padding-left: 70px;
+
+	}
+	@media (min-width: 768px) {
+	#sidebar-wrapper.sidebar-toggle {
+	    transition: 0s;
+	}
+	}
+	main {
+
+	    background-color: tomato;
+	    background-color: #ffb441;
+	    width: 70%;
+	    margin-left: 30%;
+	    height: 100%;
+	    position: fixed;
+	}
+    </style>
+</head>
+<body>
+	
+<div class="container">
+	<div class="row">
+		
+		<div id="sidebar-wrapper" class="sidebar-toggle">
+            <ul class="sidebar-nav">
+                <div class="" id="ufpb-logo">
+                    <a href="#"><img width="100px" height="150" src="assets/img/ufpb2.png"/></a>
+                </div>
+                <li>
+                    <a href="#item1">Produtos</a>
+                </li>
+                <li>
+                    <a href="#item2">Entradas</a>
+                </li>
+                <li>
+                    <a href="#item3">Saídas</a>
+                </li>
+                <li>
+                    <a href="#item3">Resumo</a>
+                </li>
+                <li>
+                    <a href="#item3">Sair</a>
+                </li>
+            </ul>
+        </div>  
+    </div>
+    <main>
+        Seu conteudo
+    </main>
+	</div> <!------ FIM ROW  -------->
+</div><!-------- FIM CONTAINER------------->
+	
+
+
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<!------
+http://responsive-nav.com/demo/#
+
+
+	https://pt.stackoverflow.com/questions/280346/implementando-grid-bootstrap-4-e-sidenav
+
+
+	https://codyhouse.co/demo/rounded-animated-navigation/index.html
+
+
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fcodyhouse.co%2Fassets%2Fimg%2Fgems%2Fhero%2Frounded-animated-navigation-featured.svg&imgrefurl=https%3A%2F%2Fcodyhouse.co%2Fgem%2Fcss-rounded-animated-navigation&docid=W0btsDUTq-ApBM&tbnid=CMxcaXd6U4FxXM%3A&vet=12ahUKEwiU4PH3sOfkAhXRHrkGHV-bDS84ZBAzKC4wLnoECAEQMA..i&w=840&h=480&bih=625&biw=1366&q=animate%20css%20button&ved=2ahUKEwiU4PH3sOfkAhXRHrkGHV-bDS84ZBAzKC4wLnoECAEQMA&iact=mrc&uact=8
+	-->
